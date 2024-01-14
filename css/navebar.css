@@ -1,0 +1,338 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	/*background: gray;*/
+}
+#nav-bar{
+	height: 60px;
+	background: pink;
+	width: 100%;
+}
+#nav-bar{
+	
+	position: fixed;
+	z-index: 100;
+	margin-top: 0;
+	
+}
+#nav-bar .pic img{
+	height: 50px;
+	width: 120px;
+	
+
+}
+
+.navbar-nav  li{
+	padding: 5px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.fa-bars{
+	color: white;
+	font-size: 30px !important
+
+}
+.navbar-toggler{
+	outline: none !important;
+}
+
+
+#baner{
+	background: #7b1798;
+	color: white;
+}
+.title{
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 500;
+	margin-top: 100px;
+}
+.watch img{
+	width: 80px;
+	height: 80px;
+}
+.watch span{
+	font-size: 14px;
+	margin-top: 30px;
+	margin-left: 10px;
+	font-weight: bold;
+	position: absolute;
+}
+.baner-img img{
+	margin-top: 50px;
+	width: 100%;
+	height: 100%;
+}
+.wave1-img{
+	width: 100%;
+
+}
+
+/*SECTION 2*/
+
+.title2{
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.title2::before
+{
+	content: '';
+	width: 200px;
+	height: 5px;
+	background: skyblue;
+	display: block;
+	margin: auto;
+	border-radius: 5px;
+}
+
+.title2::after
+{
+	content: '';
+	width: 50px;
+	height: 12px;
+	background: skyblue;
+	display: block;
+	margin: auto;
+	transform: translateY(-57px);
+	border-radius: 5px;
+
+}
+
+.black1 h4{
+	text-align: center;
+}
+.service1{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+}
+.service1 img{
+	width: 100%;
+	height: 100%;
+}
+
+.black2 h4{
+	text-align: center;
+}
+
+
+.service2{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+}
+.service2 img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+.black3 h4{
+	text-align: center;
+}
+.service3{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+}
+.service3 img{
+	width: 100%;
+	height: 100%;
+}
+/*SECTION 3*/
+.section3 h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+ .section3 h2::after{
+	content: '';
+	width: 200px;
+	height: 5px;
+	border-radius: 5px;
+	display: block;
+	background: skyblue;
+	margin: auto;
+	margin-top: 10px;
+
+}
+ .section3 h2::before{
+
+	content: '';
+	width: 50px;
+	height: 10px;
+	border-radius: 5px;
+	display: block;
+	background: skyblue;
+	margin: auto;
+	transform: translateY(55px);
+
+}
+.section3 ul li{
+	font-size: 22px;
+}
+.sec3_pic{
+	width: 420px;
+	height: 300px;
+	padding: 10px;
+}
+.section3 img{
+	width: 100%;
+	height: 100%;
+}
+
+/*SECTION 4*/
+.section4 h2{
+	text-align: center;
+	text-transform: uppercase;
+
+}
+ .section4 h2::after{
+	content: '';
+	width: 200px;
+	height: 5px;
+	border-radius: 5px;
+	display: block;
+	background: skyblue;
+	margin: auto;
+	margin-top: 10px;
+
+}
+ .section4 h2::before{
+
+	content: '';
+	width: 50px;
+	height: 10px;
+	border-radius: 5px;
+	display: block;
+	background: skyblue;
+	margin: auto;
+	transform: translateY(55px);
+
+
+}
+/*section 4*/
+.section4{
+	
+	background: #7b1798;
+	color: white;
+}
+
+.sec4{
+	border-left: 3px solid skyblue;
+
+}
+.sec4 p{
+	margin-left: 10px;
+
+}
+.sec4_pic1{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 40px;
+}
+.span1{
+	font-size: 17px;
+	font-weight: bolder;
+	margin-left: 10px;
+}
+.span2{
+	margin-left: 10px;
+}
+
+.sec4 img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+/*section 5 start*/
+.section5{
+	/*background: gray;*/
+	text-align: center;
+	margin: auto;
+}
+
+.section5 h2{
+	margin-top: 50px;
+	text-transform: uppercase;
+	padding: 20px;
+}
+.col-12 img{
+	width: 50px;
+	margin-bottom: 50px;
+}
+.wave2_img{
+	width: 100%;
+}
+/*section 6*/
+.section6{
+	background: #7b1798;
+	color: white;
+}
+.foot-row{
+	margin-top: 10px;
+}
+.footpic{
+	height: 60px;
+	width: 140px;
+
+}
+.footpic img{
+	width:100%;
+	height: 100%;
+}
+.foot-box1 p{
+	margin-top: 10px;
+	
+}
+.foot-box2 h4{
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.foot-box2-font{
+	margin-top: 20px;
+}
+.font1 i{
+	width: 40px;
+	height: 40px;
+	background: #501676;
+	padding: 10px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+.font1 span{
+	font-size: 20px;
+	margin-left: 5px;
+	
+}
+.foot-box3 h3{
+	margin-top: 10px;
+}
+.foot-box3 input{
+	margin-top: 20px;
+	width: 230px;
+	height: 35px;
+
+}
+.btn1{
+	margin-top: 20px;
+	background: #501676;
+	border:1px solid #501676;
+}
+hr{
+
+	background: #501676;
+	height: 1px;
+
+}
